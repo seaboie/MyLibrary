@@ -11,6 +11,8 @@ import SwiftUI
 @available(iOS 13.0, *)
 public struct CustomTabBarFirst: View {
     
+    public init() {}
+    
     @Binding var index: Int
     
     public var body: some View {
