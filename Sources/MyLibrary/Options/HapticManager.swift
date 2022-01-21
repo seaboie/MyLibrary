@@ -25,7 +25,7 @@ public class HapticManager {
         notificationGenerator.notificationOccurred(type)
     }
     
-    public func impactFeedBackGenerator(style: UIImpactFeedbackGenerator.FeedbackStyle)) {
+    public func impactFeedBackGenerator(style: UIImpactFeedbackGenerator.FeedbackStyle) {
         let impactGenerator = UIImpactFeedbackGenerator(style: style)
         impactGenerator.prepare()
         impactGenerator.impactOccurred()
