@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+@available(iOS 13.0, *)
 public class HapticManager {
     
     public static let instance = HapticManager()
